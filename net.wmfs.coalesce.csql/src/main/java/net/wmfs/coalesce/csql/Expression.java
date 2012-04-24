@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import net.wmfs.coalesce.aa.exception.ExpressionException;
 import net.wmfs.coalesce.csql.antlr.CSQLParser;
 
 import org.antlr.runtime.tree.CommonTree;

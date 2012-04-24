@@ -5,7 +5,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.wmfs.coalesce.aa.exception.ExpressionException;
 import net.wmfs.coalesce.csql.Expression.AndExpression;
 import net.wmfs.coalesce.csql.Expression.BetweenExpression;
 import net.wmfs.coalesce.csql.Expression.CustomItemExpression;

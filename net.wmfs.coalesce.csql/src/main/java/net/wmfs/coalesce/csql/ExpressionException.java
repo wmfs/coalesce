@@ -1,4 +1,4 @@
-package net.wmfs.coalesce.aa.exception;
+package net.wmfs.coalesce.csql;
 
 public class ExpressionException extends Exception {
 

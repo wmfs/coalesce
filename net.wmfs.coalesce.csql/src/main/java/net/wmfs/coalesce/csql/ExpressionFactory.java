@@ -1,6 +1,5 @@
 package net.wmfs.coalesce.csql;
 
-import net.wmfs.coalesce.aa.exception.ExpressionException;
 import net.wmfs.coalesce.csql.antlr.CSQLLexer;
 import net.wmfs.coalesce.csql.antlr.CSQLParser;
 

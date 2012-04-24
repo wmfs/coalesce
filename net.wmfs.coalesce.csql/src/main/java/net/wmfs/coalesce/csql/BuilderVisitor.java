@@ -1,6 +1,5 @@
 package net.wmfs.coalesce.csql;
 
-import net.wmfs.coalesce.aa.exception.ExpressionException;
 import net.wmfs.coalesce.csql.Expression.AndExpression;
 import net.wmfs.coalesce.csql.Expression.BetweenExpression;
 import net.wmfs.coalesce.csql.Expression.CustomItemExpression;
