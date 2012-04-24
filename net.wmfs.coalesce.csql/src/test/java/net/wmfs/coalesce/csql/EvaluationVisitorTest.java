@@ -2,7 +2,6 @@ package net.wmfs.coalesce.csql;
 
 import java.math.BigDecimal;
 
-import net.wmfs.coalesce.aa.exception.ExpressionException;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -27,6 +26,11 @@ public class EvaluationVisitorTest {
 		
 		assertEquals(true, eval("nvL('123', 'N') = 'N' oR 123 IN (123, 124)"));
 		
+		try {
+			eval("'fdsfds");
+		} catch (ExpressionException e) {
+			assertTrue(true);
+		}
 	}
 	
 	protected Object eval(String expression) throws ExpressionException {
